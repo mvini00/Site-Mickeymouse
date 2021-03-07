@@ -1,0 +1,494 @@
+*{
+    margin: 0pt;
+    padding: 0pt;
+}
+
+body{
+    font-family: "Arial", Helvetica, sans-serif;
+    background-color: rgb(0, 0, 0);
+}
+
+#logo{
+    margin-top: 10pt;
+    float: left;
+}
+
+#slogan{
+    width: 400px;
+    margin-top: 30px;
+    margin-left: 300px;
+}
+
+header{
+    width: 100%;
+    height: 120px;
+    background-color: rgb(250, 249, 249);
+    position: fixed;
+    float: left;
+    z-index: 999;
+}
+
+nav ul{ /* Menu de Navegação */
+    list-style-type: none;
+    margin-left: 400px;
+    z-index: 998;
+}
+
+nav li{ /* Menu de Navegação */
+    float: left;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 30px;
+    color: rgb(0, 0, 0);
+    z-index: 997;
+}
+
+
+#caixa{ /* Caixa vermelha que segura o menu de navegação */
+    width: 100%;
+    background-color:rgb(243, 42, 42);
+    float: left;
+    -webkit-box-shadow: 0px 3px 5px 0px rgb(0, 0, 0);
+    -moz-box-shadow: 0px 3px 5px 0px rgb(0, 0, 0);
+    box-shadow: 0px 3px 5px 0px rgb(0, 0, 0);
+    position: fixed;
+    margin-top: 120px;
+    z-index: 996;
+}
+
+#container{ /* Container que segura o Menu Principal */
+    height: 2270px;
+    width: 700px;
+    background-color: rgb(250, 250, 250);
+    margin-left: 170px;
+    float: left;
+    margin-top: 180px;
+}
+
+#titlehistoriamickey{ /* Título da História do Mickey Mouse */
+    color: rgb(0, 0, 0);
+    background-color: rgb(199, 199, 199);
+    width: 665px;
+    height: 30px;
+    box-shadow: 5px 5px rgb(53, 53, 53);
+    margin-top: 15px;
+    margin-left: 10px;
+    font-weight:initial;
+    padding-left: 10px;
+    padding-top: 5px;
+    float: left;
+    margin-bottom: 20px;
+}
+
+#texthistoriamickey{ /* Texto da História do Mickey Mouse */ 
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: justify;
+    font-size: 15px;
+}
+
+#titlevideo{ /* Título do vídeo da abertura da casa do Mickey Mouse */
+    color: rgb(0, 0, 0);
+    background-color: rgb(199, 199, 199);
+    width: 665px;
+    height: 30px;
+    box-shadow: 5px 5px rgb(53, 53, 53);
+    margin-top: 15px;
+    margin-left: 10px;
+    font-weight:initial;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+#videoindex{ /* Vídeo da abertura da casa do Mickey Mouse */
+    float: left;
+    width: 680px;
+    height: 315px;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+
+
+#container2{ /* Container que segura o conteúdo ao lado da página principal */
+    height: 1500px;
+    width: 300px;
+    background-color: rgb(255, 255, 255);
+    float: left;
+    margin-left: 20px;
+    margin-top: 180px;
+    border-radius: 20px;
+}
+
+#titlenoticias{ /* Título das notícias */
+    color: rgb(0, 0, 0);
+    background-color: rgb(199, 199, 199);
+    width: 270px;
+    height: 30px;
+    box-shadow: 5px 5px rgb(53, 53, 53);
+    margin-top: 15px;
+    margin-left: 10px;
+    font-weight:initial;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+h5{ /* Subtítulo das Notícias que fica ao lado da página principal */
+    margin-top: 10px;
+    margin-left: 10px;
+    font: bold;
+}
+
+#textnoticias{ /* Texto das notícias */
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 14px;
+    text-align: justify;    
+}
+
+#video2{ /* Vídeo dos 90 anos do mickey mouse */
+    width: 280px;
+    height: 200px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+
+#shopping{ /* Título do Shopping que fica ao lado da página principal */
+    color: rgb(0, 0, 0);
+    background-color: rgb(199, 199, 199);
+    width: 270px;
+    height: 30px;
+    box-shadow: 5px 5px rgb(53, 53, 53);
+    margin-top: 15px;
+    margin-left: 10px;
+    font-weight:initial;
+    border-radius: 10px;
+    float: left;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+#produtoshopping{
+    width: 270px;
+    height: 240px;
+    float: left;
+    background-color: rgb(255, 255, 255);
+    margin-top: 15px;
+    margin-left: 10px;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+#imagemproduto{
+    float: left;
+    width: 268px;
+    height: 238px;
+    border-radius: 10px;
+}
+
+#titlecancoes{
+        color: rgb(0, 0, 0);
+        background-color: rgb(199, 199, 199);
+        width: 270px;
+        height: 30px;
+        box-shadow: 5px 5px rgb(53, 53, 53);
+        margin-top: 15px;
+        margin-left: 10px;
+        font-weight:initial;
+        border-radius: 10px;
+        float: left;
+        padding-left: 10px;
+        padding-top: 5px;
+}
+
+#imagenmusicas{
+    width: 271px;
+    height: 232px;
+    float: left;
+    background-color: rgb(255, 255, 255);
+    margin-top: 15px;
+    margin-left: 10px;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+#imagemcancoes{
+        float: left;
+        width: 268px;
+        height: 230px;
+        border-radius: 10px;
+}
+
+#titlemickeyfrases{
+    color: rgb(0, 0, 0);
+    background-color: rgb(199, 199, 199);
+    width: 270px;
+    height: 30px;
+    box-shadow: 5px 5px rgb(53, 53, 53);
+    margin-top: 15px;
+    margin-left: 10px;
+    font-weight:initial;
+    border-radius: 10px;
+    float: left;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+#mickeycomfrases{
+    width: 272px;
+    height: 242px;
+    float: left;
+    background-color: rgb(255, 255, 255);
+    margin-top: 15px;
+    margin-left: 10px;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+#mickeyfrases1{
+    float: left;
+    width: 270px;
+    height: 240px;
+    border-radius: 10px;
+}
+
+#titlefilmes{
+    color: rgb(0, 0, 0);
+    background-color: rgb(199, 199, 199);
+    width: 665px;
+    height: 30px;
+    box-shadow: 5px 5px rgb(53, 53, 53);
+    margin-top: 15px;
+    margin-left: 10px;
+    font-weight:initial;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+.card{
+    float: left;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+footer{
+    width: 100%;
+    height: 180px;
+    background-color:rgb(243, 42, 42);
+    float: left;
+    color: black;
+    text-align: center;
+    margin-top: 3px;
+    
+}
+
+/* STYLE CSS GALERIA */
+
+#containergaleria{
+    height: 1650px;
+    width: 1000px;
+    background-color: rgb(250, 250, 250);
+    margin-left: 170px;
+    float: left;
+    margin-top: 175px;
+}
+
+.galeria{
+    margin-left: 140px;
+    margin-top: 40px;
+}
+
+#titlegaleria{
+    color: rgb(0, 0, 0);
+    background-color: rgb(199, 199, 199);
+    width: 960px;
+    height: 30px;
+    box-shadow: 5px 5px rgb(53, 53, 53);
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-bottom: 50px;
+    font-weight:initial;
+    padding-left: 10px;
+    padding-top: 5px;
+    float: left;
+}
+
+#galeriarodape{
+    height: 150px;
+}
+
+/* STYLE CSS VIDEOS */
+
+#containervideos{
+    height: 1650px;
+    width: 1000px;
+    background-color: rgb(250, 250, 250);
+    margin-left: 170px;
+    float: left;
+    margin-top: 175px;
+}
+
+#titulovideo{
+    color: rgb(0, 0, 0);
+    background-color: rgb(199, 199, 199);
+    width: 960px;
+    height: 30px;
+    box-shadow: 5px 5px rgb(53, 53, 53);
+    margin-top: 15px;
+    margin-left: 10px;
+    font-weight:initial;
+    padding-left: 10px;
+    padding-top: 5px;
+    float: left;
+}
+
+iframe{
+    width: 400px;
+    height: 280px;
+    margin-left: 65px;
+    margin-top: 30px;
+    border-radius: 35px;
+    border-style: solid;
+}
+
+/* STYLE CSS CURIOSIDADES */
+
+#containercuriosidades{
+    height: 3850px;
+    width: 1000px;
+    background-color: rgb(250, 250, 250);
+    margin-left: 170px;
+    float: left;
+    margin-top: 175px;
+}
+
+#titulocuriosidades{
+    color: rgb(0, 0, 0);
+    background-color: rgb(199, 199, 199);
+    width: 960px;
+    height: 30px;
+    box-shadow: 5px 5px rgb(53, 53, 53);
+    margin-top: 15px;
+    margin-left: 10px;
+    font-weight:initial;
+    padding-left: 10px;
+    padding-top: 5px;
+    float: left;
+}
+
+#imagemcuriosidade1{
+    width: 920px;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+.textocuriosidades{
+    text-align: justify;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    color: black;
+    font-size: 15px;
+}
+
+#tituloimagemcuriosidades{
+    margin-top: 20px;
+    margin-left: 40px;
+    color: black;
+}
+
+#imagemcuriosidade2{
+    width: 920px;
+    margin-left: 40px;
+}
+
+.legenda1{
+    margin-left: 40px;
+    font-size: 14px;
+    font-style: italic;
+}
+
+#imagemcuriosidade3{
+    width: 920px;
+    margin-left: 40px;
+}
+
+
+#curiosidadesrodape{
+    height: 150px;
+}
+
+#imagemcuriosidade4{
+    width: 920px;
+    margin-left: 40px;
+}
+
+/* STYLE CSS PERSONAGENS */
+
+#containerpersonagens{
+    height: 1650px;
+    width: 1000px;
+    background-color: rgb(250, 250, 250);
+    margin-left: 170px;
+    float: left;
+    margin-top: 175px;
+}
+
+#titulopersonagens{
+    color: rgb(0, 0, 0);
+    background-color: rgb(199, 199, 199);
+    width: 960px;
+    height: 30px;
+    box-shadow: 5px 5px rgb(53, 53, 53);
+    margin-top: 15px;
+    margin-left: 10px;
+    font-weight:initial;
+    padding-left: 10px;
+    padding-top: 5px;
+    float: left;
+}
+
+.col-md{
+    margin-top: 50px;
+}
+
+.cardpluto{
+    float: left;
+    margin-top: 20px;
+    margin-left: 40px;
+    font-size: 18px;
+}
+
+.cardpateta{
+    float: left;
+    margin-left: 400px;
+    font-size: 18px;
+ 
+}
+
+.cardminnie{
+    float: left;
+    margin-left: 40px;
+    font-size: 18px;
+}
+
+.carddonald{
+    float: left;
+    margin-left: 400px;
+    font-size: 18px;
+}
+
+.cardmargarida{
+    float: left;
+    margin-left: 40px;
+    font-size: 18px;
+}
